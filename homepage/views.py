@@ -1,6 +1,5 @@
 
 from django.shortcuts import render, redirect
-from . import forms
 from .models import Details
 from .models import Compose
 import imaplib,email
@@ -16,6 +15,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 from django.http import JsonResponse
 import re
+from . import forms
 
 file = "good"
 i="0"
