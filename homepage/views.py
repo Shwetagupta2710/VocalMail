@@ -28,7 +28,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 imap_url = 'imap.gmail.com'
 conn = imaplib.IMAP4_SSL(imap_url)
-attachment_dir = 'C:/Users/Chacko/Desktop/'
+attachment_dir = 'C:/Users/Shwet/Desktop/'
 
 def texttospeech(text, filename):
     filename = filename + '.mp3'
@@ -113,6 +113,7 @@ def login_view(request):
             else:
                 texttospeech("could not understand what you meant:", file + i)
                 i = i + str(1)
+
         addr = addr.strip()
         addr = addr.replace(' ', '')
         addr = addr.lower()
