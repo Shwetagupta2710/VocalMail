@@ -25,19 +25,8 @@ To address this, we introduce **VocalMail**, a web-based application designed sp
 ---
 
 
-### Steps to Run:
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repository/vocalmail.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd vocalmail
-   ```
-3. Install dependencies:
-   ```sh
-   ```
-4. Run the Django development server:
+
+1. Run the Django development server:
    ```sh
    python manage.py runserver
    ```
