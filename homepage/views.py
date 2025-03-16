@@ -28,7 +28,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 imap_url = 'imap.gmail.com'
 conn = imaplib.IMAP4_SSL(imap_url)
-attachment_dir = 'C:/Users/Shwet/Desktop/'
+attachment_dir = 'C:\Users\shwet\OneDrive\Desktop\VocalMail'
 
 def texttospeech(text, filename):
     filename = filename + '.mp3'
